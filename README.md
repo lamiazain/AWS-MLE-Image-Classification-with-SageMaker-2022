@@ -35,29 +35,31 @@ Hyper parameters used were the learning rate that was allowed to have a continou
 
 
 ![HPO Successful 1](https://user-images.githubusercontent.com/36462678/205208639-baebd87e-326b-4574-b73b-f3b5a87902e2.PNG)
-
-
-                          ![](ScreenShots/HPO Successful 1.PNG)
+![HPO Successful 2](https://user-images.githubusercontent.com/36462678/205208931-8e75b024-c840-47f1-bb46-8709f296de2a.PNG)
 
 - First training job: lr = 0.03550200513396233, epochs=5 , Test LOss= 0.03319
 
-                     ![](ScreenShots/Tj2 logs.PNG)
-                     ![](ScreenShots/TJ2 Monitor.PNG)
+![Tj1 logs](https://user-images.githubusercontent.com/36462678/205209017-5382490f-1a38-4cce-bd69-c1eb1ec8513d.PNG)
+![TJ1 Monitor](https://user-images.githubusercontent.com/36462678/205209024-45a698c8-757b-47b7-9d2e-c17c0a76f50b.PNG)
+
 
 - Seconed training job: lr = 0.002520061454874928 , epochs=10,  Test LOss= 0.002199
 
-                       ![](ScreenShots/Tj1 logs.PNG)
-                       ![](ScreenShots/Tj1 logs.PNG)
+![Tj2 logs](https://user-images.githubusercontent.com/36462678/205209093-27f87d0b-c81e-47eb-84df-558be3a3a0d2.PNG)
+![TJ2 Monitor](https://user-images.githubusercontent.com/36462678/205209107-77b47ad0-3474-4e3c-8d47-70eb316abe78.PNG)
+
 
 - Third training job: lr = 0.06752170730722379 , epochs=15, Test LOss= 0.09899
 
-                   ![](ScreenShots/Tj3 logs.PNG)
-                   ![](ScreenShots/TJ3 Monitor.PNG)
+![Tj3 logs](https://user-images.githubusercontent.com/36462678/205209159-d77b310d-6d1d-49f2-a9f7-02eb3fee55f8.PNG)
+![TJ3 Monitor](https://user-images.githubusercontent.com/36462678/205209162-0b0e31d0-50f6-4a9a-b5da-31da90133864.PNG)
+
  
 - Fourth training job: lr = 0.003937592032800326 , epochs=20, Test LOss= 0.002499
 
-                   ![](ScreenShots/Tj4 logs.PNG)
-                   ![](ScreenShots/TJ4 Monitor.PNG)
+![Tj4 logs](https://user-images.githubusercontent.com/36462678/205209211-cf269ca6-3f10-4561-91b1-8d56f8c13cd2.PNG)
+![TJ4 Monitor](https://user-images.githubusercontent.com/36462678/205209219-0d8a447c-e4b0-473b-bf09-99d07dd65a8e.PNG)
+
 
 The best training job in terms of lowest test loss was the seconed training job where lr= 0.002520061454874928 and Number of epochs was 10.
 
@@ -89,9 +91,10 @@ Third, A predictor can  be created and output size should be 10 indicating the 1
 
 Two Images from the training dataset were selected and passed to the endpoint. The first is of A "leptodactylus_pentadactylus" Which is a sort of frog and has a label of 6 and the output of the predictor showed that the 6th element has the highest softmax value. The seconed element name is camion which is a type of trucks that holds label 9 and the output of the predictor gives maximum softmax value for the ninth element in the output array. 
 
-         ![](ScreenShots/Deployed Endpoint1.PNG)
-         ![](ScreenShots/Deployed Endpoint2.PNG)
-         ![](ScreenShots/EndpointLogs.PNG)
+![Deployed Endpoint1](https://user-images.githubusercontent.com/36462678/205209288-551d3f46-b7c1-4148-a190-384b015f4623.PNG)
+![Deployed Endpoint2](https://user-images.githubusercontent.com/36462678/205209303-3fc539e0-80cb-4ee1-88a5-d77953a51751.PNG)
+![EndpointLogs](https://user-images.githubusercontent.com/36462678/205209322-58b76256-c15f-4a31-88a8-81012af1e175.PNG)
+
      
      
 ## Standout Suggestions
