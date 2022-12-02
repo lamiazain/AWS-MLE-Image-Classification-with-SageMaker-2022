@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Image Classification using AWS SageMaker
 
 In this project a pretrained RESNET50 is used and finetuned to fit CIFAR10 Dataset. As in hpo.py script, in net function, it was found that 
@@ -93,7 +92,4 @@ Two Images from the training dataset were selected and passed to the endpoint. T
      
 ## Standout Suggestions
 This section is for further tasks in the future.
-||||||| empty tree
-=======
-# AWS-MLE-Image-Classification-with-SageMaker-2022
->>>>>>> 43168af90f90eb6c0a250555d1ec852b25773e24
+
