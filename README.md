@@ -32,7 +32,9 @@ Upload the data to an S3 bucket through the AWS Gateway so that SageMaker has ac
 ## Hyperparameter Tuning
 Hyper parameters used were the learning rate that was allowed to have a continous value from 0.001 to 0.1 and the number of epochs that has catigorical values of 5,10,15,20. Four training jobs were perfprmed and completed successfukky with the following hyper parameters.
 
-![](ScreenShots/HPO Successful 1.PNG)
+
+
+![](lamiazain/AWS-MLE-Image-Classification-with-SageMaker-2022/ScreenShots/HPO Successful 1.PNG)
                           ![](ScreenShots/HPO Successful 1.PNG)
 
 - First training job: lr = 0.03550200513396233, epochs=5 , Test LOss= 0.03319
