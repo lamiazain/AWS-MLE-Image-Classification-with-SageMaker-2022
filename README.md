@@ -34,7 +34,7 @@ Hyper parameters used were the learning rate that was allowed to have a continou
 
 
 
- ![](/lamiazain/AWS-MLE-Image-Classification-with-SageMaker-2022/ScreenShots/HPO Successful 1.PNG)
+![HPO Successful 1](https://user-images.githubusercontent.com/36462678/205208639-baebd87e-326b-4574-b73b-f3b5a87902e2.PNG)
 
 
                           ![](ScreenShots/HPO Successful 1.PNG)
