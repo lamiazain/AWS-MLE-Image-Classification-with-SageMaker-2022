@@ -34,7 +34,7 @@ Hyper parameters used were the learning rate that was allowed to have a continou
 
 
 
-![](lamiazain/AWS-MLE-Image-Classification-with-SageMaker-2022/ScreenShots/HPO Successful 1.PNG)
+![](./lamiazain/AWS-MLE-Image-Classification-with-SageMaker-2022/ScreenShots/HPO Successful 1.PNG)
                           ![](ScreenShots/HPO Successful 1.PNG)
 
 - First training job: lr = 0.03550200513396233, epochs=5 , Test LOss= 0.03319
